@@ -103,5 +103,5 @@ Contributing: Encourage others to contribute and provide guidelines for doing so
 License: A mention of the license under which the project is released (e.g., MIT License).
 Things to Keep in Mind:
 Replace yourusername with your actual GitHub username in the clone URL.
-The images HeatMap(![Screenshot 2025-03-05 154122](https://github.com/user-attachments/assets/aaba3951-0822-4222-877d-086fb2493141))
-The images randomforestclassifier(![Screenshot 2025-03-05 154057](https://github.com/user-attachments/assets/f1a60790-be76-4f8a-93b5-1602854238f3)))
+(![Screenshot 2025-03-05 154122](https://github.com/user-attachments/assets/aaba3951-0822-4222-877d-086fb2493141))
+(![Screenshot 2025-03-05 154057](https://github.com/user-attachments/assets/f1a60790-be76-4f8a-93b5-1602854238f3)))
