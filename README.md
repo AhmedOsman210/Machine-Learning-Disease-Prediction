@@ -1,8 +1,9 @@
 # Machine Learning Disease Prediction
 
 A machine learning project that predicts diseases based on given symptoms. This project uses classification algorithms such as Random Forest, Naive Bayes, and Support Vector Classifier (SVC) to predict the disease based on input symptoms.
-![Random Forest Classifier](random_forest_classifier.png)
-![Correlation Heatmap](correlation_heatmap.png)
+![Screenshot 2025-03-05 154057](https://github.com/user-attachments/assets/aa74f8b4-685e-4e54-b396-e194b155af5b)
+
+![Screenshot 2025-03-05 154122](https://github.com/user-attachments/assets/8d92df36-f0c0-46e1-bf47-37f221d07118)
 
 ## Table of Contents
 
