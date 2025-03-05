@@ -1,44 +1,50 @@
-Machine Learning Disease Prediction
+# Machine Learning Disease Prediction
+
 A machine learning project that predicts diseases based on given symptoms. This project uses classification algorithms such as Random Forest, Naive Bayes, and Support Vector Classifier (SVC) to predict the disease based on input symptoms.
 
+![Random Forest Classifier](images/random_forest_classifier.png)
+![Correlation Heatmap](images/correlation_heatmap.png)
 
-Table of Contents
-Project Overview
-Features
-Technologies Used
-Installation Instructions
-Usage
-Results
-Contributing
-License
+## Table of Contents
 
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation Instructions](#installation-instructions)
+- [Usage](#usage)
+- [Results](#results)
+- [Contributing](#contributing)
+- [License](#license)
 
-Project Overview
+## Project Overview
+
 This project aims to build a predictive model for disease diagnosis based on input symptoms. We utilize multiple classification models (Random Forest, Naive Bayes, and Support Vector Classifier) and evaluate their performance using accuracy, confusion matrices, and other metrics.
 
 The project also explores feature importance, correlation analysis, and ensemble methods for a comprehensive approach to disease prediction.
 
-Features
-Multiple Models: The project includes SVC, Naive Bayes, and Random Forest models.
-Data Preprocessing: Clean and scale data for better performance.
-Ensemble Method: Combine model predictions using a majority vote.
-Confusion Matrix: Visualizes model performance.
-Model Evaluation: Calculate accuracy, precision, recall, and F1-score.
-Technologies Used
-Python (for the overall coding and implementation)
-Scikit-learn (for machine learning models and metrics)
-Pandas (for data manipulation)
-NumPy (for numerical computations)
-Matplotlib and Seaborn (for data visualization)
-Jupyter Notebook (for the interactive environment)
-Installation Instructions
-Clone the repository:
+## Features
 
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/disease-prediction.git
-cd disease-prediction
+- **Multiple Models**: The project includes SVC, Naive Bayes, and Random Forest models.
+- **Data Preprocessing**: Clean and scale data for better performance.
+- **Ensemble Method**: Combine model predictions using a majority vote.
+- **Confusion Matrix**: Visualizes model performance.
+- **Model Evaluation**: Calculate accuracy, precision, recall, and F1-score.
+
+## Technologies Used
+
+- **Python** (for the overall coding and implementation)
+- **Scikit-learn** (for machine learning models and metrics)
+- **Pandas** (for data manipulation)
+- **NumPy** (for numerical computations)
+- **Matplotlib** and **Seaborn** (for data visualization)
+- **Jupyter Notebook** (for the interactive environment)
+
+## Installation Instructions
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/disease-prediction.git
+   cd disease-prediction
 Create a virtual environment (optional but recommended):
 
 bash
@@ -94,14 +100,26 @@ Open a pull request.
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Documentation Sections:
-Introduction: A summary of the project, its purpose, and the techniques used (like classification models, data preprocessing, etc.).
-Setup Instructions: Clear steps on how to clone, install, and run the project, including dependencies.
-Usage Instructions: How to interact with the model, run it, and visualize the results.
-Evaluation: The key performance metrics and any visualizations you want to include (like confusion matrix, feature importance, etc.).
-Contributing: Encourage others to contribute and provide guidelines for doing so.
-License: A mention of the license under which the project is released (e.g., MIT License).
-Things to Keep in Mind:
-Replace yourusername with your actual GitHub username in the clone URL.
-(![Screenshot 2025-03-05 154122](https://github.com/user-attachments/assets/aaba3951-0822-4222-877d-086fb2493141))
-(![Screenshot 2025-03-05 154057](https://github.com/user-attachments/assets/f1a60790-be76-4f8a-93b5-1602854238f3)))
+markdown
+Copy
+Edit
+
+### How to Upload and Use the Images:
+
+1. **Add the Images to Your Repository**:
+   - Create a folder named `images` in your project directory.
+   - Upload the `random_forest_classifier.png` and `correlation_heatmap.png` images into this folder.
+   
+2. **Link the Images in Your README**:
+   - In the markdown code above, the images are linked as `images/random_forest_classifier.png` and `images/correlation_heatmap.png`, which are relative paths that point to the images inside your repository.
+
+3. **Push Your Changes**:
+   - Once you’ve added the images and updated the README, push the changes to GitHub.
+
+```bash
+git add images/random_forest_classifier.png images/correlation_heatmap.png README.md
+git commit -m "Added images and updated README"
+git push origin main
+Notes:
+Make sure the image files are correctly uploaded into the images folder in your repository.
+If you're hosting the images elsewhere (e.g., Imgur), replace the images/random_forest_classifier.png URL with the direct URL from the hosting service.
